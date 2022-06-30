@@ -290,10 +290,11 @@ alert(document.cookie);
 * Export them in the terminal in the same order
 * Run the following commands
 
-`aws s3 ls s3://temporary-public-image-store`
-`aws s3 cp s3://temporary-public-image-store/flag.txt .`
-`cat flag.txt`
-
+```sh
+aws s3 ls s3://temporary-public-image-store
+aws s3 cp s3://temporary-public-image-store/flag.txt .
+cat flag.txt
+```
 # Open SSL
 * Install from https://slproweb.com/products/Win32OpenSSL.html 5MB File
 
