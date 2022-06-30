@@ -184,7 +184,7 @@ Some level of filtering has been done this time,
 ```php
 $name = str_replace( '<script>', '', $_GET[ 'name' ] );
 ```
-They have only replaced lowercase `<>`, which means, `<SCRIPT>` will work!	
+They have only replaced lowercase `<script>`, which means, `<SCRIPT>` will work!	
 **Attack :**  `<SCRIPT>alert("hacked")</SCRIPT>`
 ## High
 Only script tags are being targetted by this programmer, use an img tag instead.
